@@ -47,3 +47,4 @@ Practice version control using Git and GitHub
 This is a leraning project. No real data are included in the initial version
 #Author
 Valary0807
+# bsf-genomics-practice-
