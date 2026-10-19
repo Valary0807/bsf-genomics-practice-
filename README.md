@@ -1,6 +1,37 @@
-#BSF Genomics Practice Project
+cat > .gitignore <<'EOF'
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Variant files
+*.vcf
+*.vcf.gz
+*.bcf
+
+# Temporary files and logs
+*.tmp
+*.log
+
+# R and RStudio files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python cache
+__pycache__/
+*.pyc
+EOF#BSF Genomics Practice Project
 ##Overview
-This project documents a practice workflow for genomic analysis of the Black Soldier Fly (Hermetia illucens)
+This project documents a practice workflow for genomic analysis of the Black Soldier Fly (Hermetia illucens). This project is used to practice reproducible bioinformatics workflows.
 #Objectives
 document sequencing quality control
 Record reference genome alignment steps
