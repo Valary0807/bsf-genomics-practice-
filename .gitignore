@@ -1,0 +1,30 @@
+# Sequencing data
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignment files
+*.sam
+*.bam
+*.bai
+*.cram
+*.crai
+
+# Variant files
+*.vcf
+*.vcf.gz
+*.bcf
+
+# Temporary files and logs
+*.tmp
+*.log
+
+# R and RStudio files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Python cache
+__pycache__/
+*.pyc
